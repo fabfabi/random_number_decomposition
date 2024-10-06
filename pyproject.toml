@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "probabilisticprogramming"
+version = "0.1.0"
+description = ""
+authors = ["Fabi <your@mail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.1.2"
+polars = "^1.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
